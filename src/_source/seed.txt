@@ -1,0 +1,10 @@
+<?php
+
+use Mond\Core\MongoCollection;
+
+class [class_name] extends MongoCollection
+{
+    protected function seed()
+    {
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "haiquang9994/mond",
+    "description": "MongoDB migration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyễn Hải Quang",
+            "email": "haiquang9994@gmail.com"
+        }
+    ],
+    "require": {
+        "league/climate": "^3.5",
+        "mongodb/mongodb": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mond\\": "src/"
+        }
+    },
+    "bin": "src/bin/mond"
+}

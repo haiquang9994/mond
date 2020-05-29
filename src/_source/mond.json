@@ -1,0 +1,14 @@
+{
+    "log_name": "mond_logs",
+    "dir": {
+        "migrations": "db/migrations",
+        "seeds": "db/seeds"
+    },
+    "connection": {
+        "host": "127.0.0.1",
+        "port": "27017",
+        "user": "user",
+        "password": "secret",
+        "database": "db_name"
+    }
+}

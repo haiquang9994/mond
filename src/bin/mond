@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+use Mond\Mond;
+
+require __DIR__ .'/../../vendor/autoload.php';
+
+$mond = new Mond();
+$mond->run();

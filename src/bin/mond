@@ -3,7 +3,9 @@
 
 use Mond\Mond;
 
-require __DIR__ .'/../../vendor/autoload.php';
+$autoloader = require __DIR__ . '/../composer_autoloader.php';
 
-$mond = new Mond();
-$mond->run();
+if ($autoloader()) {
+    $mond = new Mond();
+    $mond->run();
+}

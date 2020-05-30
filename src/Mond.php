@@ -68,7 +68,7 @@ class Mond
     {
         $database = $this->getDatabase();
         $commandType = $this->options[0];
-        $mondLogs = $database->mond_logs;
+        $mondLogs = $database->{$this->config['log_name']};
         if ($commandType == 'up') {
             return $this->scriptRunUp($database, $mondLogs);
         } elseif ($commandType == 'down') {

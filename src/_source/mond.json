@@ -1,5 +1,5 @@
 {
-    "log_name": "mond_logs",
+    "log_name": "mond_log",
     "dir": {
         "migrations": "db/migrations",
         "seeds": "db/seeds"
